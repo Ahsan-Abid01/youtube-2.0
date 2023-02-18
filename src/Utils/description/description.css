@@ -1,0 +1,24 @@
+.description{
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    background-color:#e6e2e2;
+    padding: 10px;
+    margin-top: 20px;
+}
+.description.active{
+    height: auto;
+}
+.description span{
+    font-weight: 700;
+    text-align: left;
+}
+.brief-description{
+    padding:10px;
+    height: 100px;
+    overflow: hidden;
+}
+.brief-description.more{
+    height: auto;
+}
+

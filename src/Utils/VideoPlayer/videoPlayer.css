@@ -1,0 +1,17 @@
+.videoPlayer{
+    display:flex;
+    justify-content:space-around;
+}
+.video{
+    height:360px;
+    width:640px;
+    border-radius:5px;
+}
+@media only screen and (max-width: 600px) {
+  .videoPlayer{
+    flex-direction: column;
+  }
+  .video{
+    height: auto;
+  }
+    }

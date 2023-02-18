@@ -1,0 +1,30 @@
+.related-video{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left:20px;
+}
+.related-thumbnail{
+    margin-right: 10px;
+    height: 80px;
+    width: 300px;
+}
+.related-thumbnail img{
+    border-radius: 5px;
+    height: 100%;
+    width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .related-thumbnail{
+        margin-right:0px;
+        height: auto;
+        width: 300px;
+    }
+    .related-video{
+        flex-direction: column;
+    }
+
+      }
+  

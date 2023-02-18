@@ -1,0 +1,104 @@
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-logo{
+    display: flex;
+}
+.header-logo svg{
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.header-logo img{
+height: 30px;
+}
+.searchbar{
+    position: relative;
+}
+.searchbar .search-feild{
+    width: 500px;
+    border-radius: 50px;
+    height: 40px;
+    border:1px solid rgb(217, 214, 214);
+    padding: 0px 10px;
+    outline: none;
+    box-shadow: inset 0px 0px 2px rgb(217, 214, 214);
+    position: relative;
+
+}
+.searchbar .search-icon{
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(217, 214, 214);
+    position: absolute;
+    left: 460px;
+    font-size: 1.5rem;
+    border: 1px solid rgb(187, 183, 183);
+    color: rgb(34, 32, 32);
+    padding-left: 10px;
+    
+}
+.account{
+    display: flex;
+    padding-right: 20px;
+}
+.account svg{
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+.search-result{
+    height: auto;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgb(34, 32, 32);
+    border-radius: 5px;
+
+    position: absolute;
+    transform: translate(425px, 260px);
+    z-index: 111;
+}
+.search-result li{
+    padding: 0;
+    cursor:pointer;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        justify-content: space-evenly;
+    }
+    .header-logo img{
+     height: 20px;
+    }
+    .searchbar .search-feild{
+        width: 189px;
+    }
+    .searchbar .search-icon{
+        position: absolute;
+        left: 139px;
+        font-size: 1.5rem;
+        border: 1px solid rgb(187, 183, 183);
+        color: rgb(34, 32, 32);
+        padding-left: 10px;
+        
+    }
+    .account svg{
+        margin-left: 8px;
+        font-size: 1.3rem;
+    }
+    .header-logo svg{
+      display: none;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+    .search-result{
+        transform: translate(40px, 260px);
+        width: 300px;
+    }
+
+}

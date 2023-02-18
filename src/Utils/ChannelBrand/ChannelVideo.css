@@ -1,0 +1,109 @@
+.channel-demo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:600px;
+    margin-top: 10px;
+}
+.video-title{
+    font-size:1.2rem;
+    font-weight: 600;
+    width: 580px;
+}
+.channel-avatar{
+    display: flex;
+    align-items: center;
+}
+.channel-avatar img{
+    border-radius: 50%;
+    height: 50px;
+}
+.channel-avatar .channel-name{
+   margin-left: 10px;
+}
+.channel-subscribed{
+    color: rgb(193, 189, 189);
+    font-weight: lighter;
+}
+.subscribe-btn button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+.subscribe-btn button.subscribed{
+    width: 130px;
+    justify-content: end;
+    background-color: #e6e2e2;
+    color: #cdc8c8;
+
+}
+.bell{
+    height: 20px;
+}
+.subscribe-btn button.subscribed svg{
+    color: blue;
+}
+.react{
+    height: 40px;
+    width: 150px;
+    background-color: #e6e2e2;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.react button,.share button{
+    font-size: 1.1rem;
+    display: inline-flex;
+}
+.react button svg,svg{
+    font-size: 1.5rem;
+    display: inline;
+}
+.share button{
+    background-color: #e6e2e2;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.area_view{
+    display: flex;
+}
+.dots button{
+    background-color: #e6e2e2;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .channel-demo {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 600px;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .area_view{
+        display: flex;
+    }
+
+}
+
