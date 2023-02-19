@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
+  "homepage": "https://github.com/Ahsan-Abid01/youtube.git",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.16",
     "@chakra-ui/react": "^2.4.9",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
